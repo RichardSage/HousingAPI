@@ -1,0 +1,286 @@
+{
+  "swagger" : "2.0",
+  "host" : "blah",
+  "info" : {
+    "version" : "0.1",
+    "title" : "Housing API",
+    "description" : "A rest API covering most operations required to manage housing association data"
+  },
+  "paths" : {
+    "/customers" : {
+      "get" : {
+        "summary" : "Customers",
+        "description" : "returns a collection of customers.\n",
+        "responses" : {
+          "200" : {
+            "description" : "An array of customers."
+          }
+        }
+      }
+    },
+    "/properties" : {
+      "get" : {
+        "summary" : "Properties",
+        "description" : "returns a collection of properties",
+        "responses" : {
+          "200" : {
+            "description" : "an array of properties"
+          }
+        }
+      }
+    },
+    "/repairs" : {
+      "get" : {
+        "summary" : "Repairs",
+        "description" : "returns a collection of repairs",
+        "responses" : {
+          "200" : {
+            "description" : "an array of repairs"
+          }
+        }
+      }
+    },
+    "/rent" : {
+      "get" : {
+        "summary" : "Rent",
+        "description" : "returns a collection of Rent",
+        "responses" : {
+          "200" : {
+            "description" : "an array of Rent"
+          }
+        }
+      }
+    },
+    "/servicecharges" : {
+      "get" : {
+        "summary" : "servicecharges",
+        "description" : "returns a collection of service charges",
+        "responses" : {
+          "200" : {
+            "description" : "an array of service charges"
+          }
+        }
+      }
+    },
+    "/appointments" : {
+      "get" : {
+        "summary" : "Appointments",
+        "description" : "returns a collection of Appointments",
+        "responses" : {
+          "200" : {
+            "description" : "an array of Appointments"
+          }
+        }
+      }
+    },
+    "/surveys" : {
+      "get" : {
+        "summary" : "surveys",
+        "description" : "returns a collection of surveys",
+        "responses" : {
+          "200" : {
+            "description" : "an array of surveys"
+          }
+        }
+      }
+    },
+    "/cases" : {
+      "get" : {
+        "summary" : "Cases",
+        "description" : "returns a collection of Cases",
+        "responses" : {
+          "200" : {
+            "description" : "an array of Cases"
+          }
+        }
+      }
+    },
+    "/asbs" : {
+      "get" : {
+        "summary" : "ASB",
+        "description" : "returns a collection of ASB",
+        "responses" : {
+          "200" : {
+            "description" : "an array of ASB"
+          }
+        }
+      }
+    },
+    "/payments" : {
+      "get" : {
+        "summary" : "payments",
+        "description" : "returns a collection of payment",
+        "responses" : {
+          "200" : {
+            "description" : "an array of payments"
+          }
+        }
+      }
+    },
+    "/mutualexchanges" : {
+      "get" : {
+        "summary" : "mutualexchanges",
+        "description" : "returns a collection of mutualexchanges",
+        "responses" : {
+          "200" : {
+            "description" : "an array of mutualexchanges"
+          }
+        }
+      }
+    },
+    "/inspections" : {
+      "get" : {
+        "summary" : "inspections",
+        "description" : "returns a collection of inspections",
+        "responses" : {
+          "200" : {
+            "description" : "an array of inspections"
+          }
+        }
+      }
+    },
+    "/land" : {
+      "get" : {
+        "summary" : "land",
+        "description" : "returns a collection of land",
+        "responses" : {
+          "200" : {
+            "description" : "an array of land"
+          }
+        }
+      }
+    },
+    "/maintenance" : {
+      "get" : {
+        "summary" : "maintenance",
+        "description" : "returns a collection of maintenance",
+        "responses" : {
+          "200" : {
+            "description" : "an array of maintenance"
+          }
+        }
+      }
+    },
+    "/voids" : {
+      "get" : {
+        "summary" : "void",
+        "description" : "returns a collection of void",
+        "responses" : {
+          "200" : {
+            "description" : "an array of void"
+          }
+        }
+      }
+    },
+    "/components" : {
+      "get" : {
+        "summary" : "component",
+        "description" : "returns a collection of component",
+        "responses" : {
+          "200" : {
+            "description" : "an array of component"
+          }
+        }
+      }
+    },
+    "/estates" : {
+      "get" : {
+        "summary" : "estate",
+        "description" : "returns a collection of estate",
+        "responses" : {
+          "200" : {
+            "description" : "an array of estate"
+          }
+        }
+      }
+    },
+    "/policies" : {
+      "get" : {
+        "summary" : "policy",
+        "description" : "returns a collection of policy",
+        "responses" : {
+          "200" : {
+            "description" : "an array of policy"
+          }
+        }
+      }
+    },
+    "/employees" : {
+      "get" : {
+        "summary" : "employees",
+        "description" : "returns a collection of employees",
+        "responses" : {
+          "200" : {
+            "description" : "an array of employees"
+          }
+        }
+      }
+    },
+    "/communities" : {
+      "get" : {
+        "summary" : "communities",
+        "description" : "returns a collection of communities",
+        "responses" : {
+          "200" : {
+            "description" : "an array of communities"
+          }
+        }
+      }
+    },
+    "/developments" : {
+      "get" : {
+        "summary" : "developments",
+        "description" : "returns a collection of developments",
+        "responses" : {
+          "200" : {
+            "description" : "an array of developments"
+          }
+        }
+      }
+    },
+    "/kpis" : {
+      "get" : {
+        "summary" : "KPIS",
+        "description" : "returns a collection of KPIS",
+        "responses" : {
+          "200" : {
+            "description" : "an array of KPIS"
+          }
+        }
+      }
+    },
+    "/risks" : {
+      "get" : {
+        "summary" : "risks",
+        "description" : "returns a collection of risks",
+        "responses" : {
+          "200" : {
+            "description" : "an array of risks"
+          }
+        }
+      }
+    },
+    "/patches" : {
+      "get" : {
+        "summary" : "patches",
+        "description" : "returns a collection of patches",
+        "responses" : {
+          "200" : {
+            "description" : "an array of patches"
+          }
+        }
+      }
+    },
+    "/tenancies" : {
+      "get" : {
+        "summary" : "tenancies",
+        "description" : "returns a collection of tenancies",
+        "responses" : {
+          "200" : {
+            "description" : "an array of tenancies"
+          }
+        }
+      }
+    }
+  }
+}
